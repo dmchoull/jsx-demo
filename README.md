@@ -17,3 +17,13 @@ Build output will be `dist/index.js`
 `npm start`
 
 This starts a web server at http://localhost:5000 serving `index.html` which loads the `dist/index.js` script.
+
+## References
+
+https://reactjs.org/docs/introducing-jsx.html
+
+https://reactjs.org/docs/react-without-jsx.html
+
+https://jasonformat.com/wtf-is-jsx/
+
+https://preactjs.com/guide/v10/api-reference#h--createelement
