@@ -1,0 +1,29 @@
+{
+  "name": "jsx",
+  "version": "1.0.0",
+  "description": "JSX Demo project",
+  "main": "index.js",
+  "watch": {
+    "build": "index.js"
+  },
+  "scripts": {
+    "build": "babel index.js -d dist && prettier --write dist/index.js",
+    "watch": "npm-watch",
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "dmchoull",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-syntax-jsx": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "babel-plugin-transform-jsx": "^2.0.0",
+    "npm-watch": "^0.6.0",
+    "prettier": "^2.0.5",
+    "serve": "^11.3.0"
+  },
+  "dependencies": {}
+}
